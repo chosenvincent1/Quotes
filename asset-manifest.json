@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/http//chosenvincent1.github.io/Random-Quote/static/css/main.3b3a85f0.css",
+    "main.js": "/http//chosenvincent1.github.io/Random-Quote/static/js/main.b3d35e20.js",
+    "static/media/image.jpeg": "/http//chosenvincent1.github.io/Random-Quote/static/media/image.03a7d7d7df6328a4e426.jpeg",
+    "index.html": "/http//chosenvincent1.github.io/Random-Quote/index.html",
+    "main.3b3a85f0.css.map": "/http//chosenvincent1.github.io/Random-Quote/static/css/main.3b3a85f0.css.map",
+    "main.b3d35e20.js.map": "/http//chosenvincent1.github.io/Random-Quote/static/js/main.b3d35e20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b3a85f0.css",
+    "static/js/main.b3d35e20.js"
+  ]
+}
