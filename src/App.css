@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/image.jpeg') ;
+  background-size: cover;
+  text-align: center;
+}
+
+.title {
+  color:  white;
+  text-transform: capitalize;
+  font-size: 3em;
+  margin-bottom: 100px;
+  padding: 0px 10px;
+  text-align: center;
+}
+
+.quote-card {
+  background-color: whitesmoke;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 80%;
+  height: fit-content;
+}
+
+.quote-card > h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.quote-card > button {
+  padding: 15px 10px;
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 60%;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  background: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .quote-card {
+    width: 60%;
+  }
+
+  .quote-card > button {
+    width: 40%;
+  }
+}
