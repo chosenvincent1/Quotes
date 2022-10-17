@@ -43,7 +43,10 @@ body {
 .quote-card {
   background-color: whitesmoke;
   padding: 2%;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border-radius: 10px;
   margin-bottom: 30px;
   width: 80%;
