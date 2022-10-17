@@ -23,6 +23,8 @@ function App() {
       <div className='quote-container'>
         <div className='quote-card'>
           <h1 className='quote'>{quotes}</h1>
+        </div>
+        <div className='button-container'>
           <button onClick={fetchData}>Get Quote</button>
         </div>
       </div>

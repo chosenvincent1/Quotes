@@ -25,8 +25,8 @@ body {
   color:  white;
   text-transform: capitalize;
   font-size: 2.5em;
-  margin-bottom: 50px;
-  margin-top: 100px;
+  /* margin-bottom: 50px; */
+  margin-top: 50px;
   padding: 0px 10px;
   text-align: center;
 }
@@ -43,11 +43,9 @@ body {
 .quote-card {
   background-color: whitesmoke;
   padding: 2%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  text-align: center;
   border-radius: 10px;
+  margin-bottom: 30px;
   width: 80%;
   height: 40%;
 }
@@ -55,22 +53,23 @@ body {
 .quote-card > h1 {
   text-align: center;
   font-size: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
-.quote-card > button {
+.button-container {
+  width: 100%;
+}
+
+.button-container > button {
   padding: 10px;
-  border: 3px solid black;
+  color: white;
+  border: 3px solid white;
   border-radius: 20px;
   width: 50%;
   font-size: 18px;
-  margin-bottom: 10px;
   background: none;
 }
 
-@media only screen and (min-width: 600px) {
-
+@media only screen and (min-width: 992px) {
   .title {
     font-size: 3em;
     margin-bottom: 50px;
@@ -78,14 +77,15 @@ body {
   }
 
   .quote-card {
-    width: 60%;
+    width: 50%;
+    height: 40%;
   }
 
   .quote-card > h1 {
     font-size: 25px;
   }
 
-  .quote-card > button {
-    width: 40%;
+  .button-container > button {
+    width: 20%;
   }
 }
