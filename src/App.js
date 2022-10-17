@@ -20,10 +20,13 @@ function App() {
   return (
     <div className="App">
       <h1 className='title'>your daily Quote</h1>
-      <div className='quote-card'>
-        <h1 className='quote'>{quotes}</h1>
-        <button onClick={fetchData}>Get Quote</button>
+      <div className='quote-container'>
+        <div className='quote-card'>
+          <h1 className='quote'>{quotes}</h1>
+          <button onClick={fetchData}>Get Quote</button>
+        </div>
       </div>
+      
     </div>
   );
 }
